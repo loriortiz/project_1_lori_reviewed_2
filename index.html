@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning how to learn</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+     <img src="images/logo.png" alt="Practicum logo" class="logo logo_place_header">
+      <!--+
+        Must be corrected: it should be logo logo_place_header
+      -->
+      <h1 class="header__title">Learning How to Learn</h1>
+      <p class="header__subtitle">
+      <!-- +
+        Must be corrected: line-height should be 25px
+      -->
+        The most effective, cutting-edge learning techniques that you can apply to your daily life.
+        <a class="header__link" href="#">Learn more →</a>
+        <!-- +
+          Must be corrected: this element shoud have the class header__link. Please, replace
+        -->
+      </p>
+      <div class="header__square-pic"></div>
+      <img class="header__main-illustration" src="images/on_the_edge.png" alt="woman standing on rock" />
+    </header>
+    <main class="content">
+      <section class="description">
+        <div class="two-columns">
+        <!-- +
+          Must be corrected: justify-content should be added according to the brief
+        -->
+          <h2 class="two-columns__brief">The main problem with education</h2>
+          <!-- + Thanks. It's really helpful when you have the mdn link
+            Must be corrected: line height should be 1.2. It's a modifier
+
+            For more info: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+          -->
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
+              Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. All you actually do is memorize information in order to regurgitate when you take the test. You get drilled on how to solve specific exercises so that while you know exactly what you need to do when exam time comes around, do you truly understand the
+              subject material? All you've really learned is how to pass that one test. Once that test is over, the information in your head has outlived its usefulness.
+            </p>
+
+            <p class="two-columns__paragraph">
+              <span class="two-columns__span-accent">Conclusion:</span> 
+              Knowing how to study is absolutely essential, but for some reason, this point is too often overlooked. So, what can we do to remedy this?
+            </p>
+            
+            <p class="two-columns__paragraph">
+              There are certain techniques and exercises that can be applied to the learning process to help make it more efficient
+              and engaging. This is exactly what we do at Practicum.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="digits">
+      <!-- +
+        Must be corrected: this section should have the class digits
+      --> 
+        <h2 class="section-title">Facts and figures</h2>
+        <!--+
+          Must be corrected: this element should have the class section-title. Should be fixed
+        -->
+        <p class="section-subtitle">On learning and the brain</p>
+        <!--+
+          Must be corrected: 
+            1. this element should have the class section-subtitle. Should be fixed
+        -->
+        <div class="table">
+        <!-- +
+          Must be corrected: this section should be indented from belove section 100px, not 60px
+        -->
+          <div class="table__cell">
+            <h3 class="table__heading">86 billion</h3>
+            <!-- +
+              Must be corrected: line-height should be equal to 1.2, without em
+            -->
+            <p class="table__text">The number of neurons in the human brain</p>
+            <!-- +
+              Must be corrected: please, add font styles for this element
+            -->
+          </div>
+          <div class="table__cell">
+            <h3 class="table__heading">2.1 billion</h3>
+            <p class="table__text">The number of adults with low reading proficiency</p>
+            <p class="table__text">World Bank, 2017</p>
+          </div>
+          <div class="table__cell">
+            <h3 class="table__heading">1,000 terabytes</h3>
+            <p class="table__text">Human information storage capacity</p>
+          </div>
+          <div class="table__cell">
+            <h3 class="table__heading">500 trillion</h3>
+            <p class="table__text">The number of nerve synapses responsible for learning in an adult human</p>
+          </div>
+          <div class="table__cell">
+            <h3 class="table__heading">420 Million</h3>
+            < class="table__text">The number of adults under 25 with insufficient education for finding employment<l>
+            <p class="table__text">World Bank, 2017</p>
+          </div>
+          <div class="table__cell">
+            <h3 class="table__heading">17 - 20 years old</h3>
+            <p class="table__text">Peak learning age</p>
+          </div>
+          <div class="table__cell">
+            <h3 class="table__heading">1885</h3>
+            <p class="table__text">Development of the forgetting curve</p>
+          </div>
+          <div class="table__cell">
+            <h3 class="table__heading">1897</h3>
+            <p class="table__text">Publication of Ivan Pavlov's research on classical conditioning</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">The Feynman Technique</h2>
+        <!-- + OK but my brief says "770px" not 775px
+            Must be corrected:
+              1. Please, add 5px to width property to meet the design. It's the problem of
+              the design, sorry
+              2.  line-height should be equal to 1.15, without em
+        -->
+        <p class="feynman__subtitle">Learn without forgetting.</p>
+        <!-- +
+          Could be better: yes, font weight is okay but it's good practice to set properties explicitly
+        -->
+        <a class="feynman__link" href="#">More →</a>
+      </section>
+      
+      <section class="kaufman">
+      <!-- +
+        Must be corrected: set z-index for this section to 0. Is's under the layout at the moment
+      -->
+        <div class="kaufman__triangle"></div>
+        <!-- 
+          It could be better: for images in html img tag should be used
+        -->
+        <!-- +
+          Must be corrected: right coord should be equal to -210px according to the brief
+        -->
+        <h2 class="section-title section-title_theme_dark">Ten principles of rapid skill acquisition</h2>
+        <!-- 
+          Must be corrected:
+            this element should have the classes section-title section-title_theme_dark.
+            Please, replace
+         -->
+        <p class="section-subtitle section-subtitle_theme_dark">by Josh Kaufman</p>
+        <!-- +
+          Must be corrected:
+            this element should have the classes section-subtitle section-subtitle_theme_dark.
+            Please, replace
+         -->
+        <div class="table">
+          <div class="table__cell table__cell_theme_dark">
+          <!-- 
+            Good job: this classes match BEM and the brief. Nice!
+          -->
+            <h3 class="table__heading table__heading_theme_dark">1</h3>
+            <!-- +
+              Must be corrected:
+                This element should have the classes table__heading table__heading_theme_dark
+                It should be fixed for all such elements in this section. There are some more belove
+            -->
+            <p class="table__text table__text_theme_dark">Choose a lovable project.</p>
+            <!-- +
+              Must be corrected:
+                This element should have the classes table__text table__text_theme_dark
+                It should be fixed for all such elements in this section. There are some more belove
+            -->
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">2</h3>
+            <p class="table__text">Focus your energy on one skill at a time.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">3</h3>
+            <p class="table__text">Define your target performance level.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">4</h3>
+            <p class="table__text">Deconstruct the skill into sub-skills.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">5</h3>
+            <p class="table__text">Obtain critical tools.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">6</h3>
+            <p class="table__text">Eliminate barriers to practice.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">7</h3>
+            <p class="table__text">Make dedicated time for practice.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">8</h3>
+            <p class="table__text">Create fast feedback loops.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">9</h3>
+            <p class="table__text">Practice by the clock in short bursts.</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">10</h3>
+            <p class="table__text">Emphasize quantity and speed.</p>
+          </div>
+        </div>
+      </section>
+      <!-- +
+        Must be corrected: paddings of this section and paddings of sells have added up,
+        so the section belove is indented 170px but it should be 90px
+      -->
+    </main>
+    <footer class="footer"> 
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+        <!-- +
+          Must be corrected:
+            Modified element is missed. It should be footer__column footer__column_content_copyright
+        -->
+          <img src="images/logo_white.png" alt="Practicum logo" class="logo logo_place_footer">
+          <p class="footer__author">©2020. Lori Ortiz</p>
+        </div>
+      
+        <div class="footer__column footer__column_content_info">
+        <!-- +
+          Must be corrected: Modified element is missed
+        -->
+          <h3 class="footer__column-heading">About Practicum by Yandex</h3>
+
+            <ul class="footer__column-links">
+              <li class="footer__list-item"><a href="#" class="footer__column-links footer__link-item">Home page</a></li>
+              <li class="footer__list-item"><a href="#" class="footer__column-links footer__link-item">Concept</a></li>
+              <li class="footer__list-item"><a href="#" class="footer__column-links footer__link-item">Mentors</a></li>
+            </ul>
+            <!-- 
+              Must be corrected:
+                it's the list of links. ul tag should be used to group items. This list should have
+                the class footer__column-links. For li and a tags, please, create another classes(they
+                are not in the brief, you can make up them)
+
+                For more info:
+                  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+            -->
+        </div>
+        <div class="footer__column footer__column_content_social">
+        <!-- +
+          Must be corrected: Modified element is missed
+        -->
+          <h3 class="footer__column-heading">Social media</h3>
+          <ul class="footer__column-links">
+            <li class="footer__list-item">
+              <a href="#" class="footer__column-links footer__link-item">
+                <img class="footer__social-icon" src="images/facebook_white.svg" alt="">
+                <!-- 
+                  Could be better: alt attr should contain descriptive content
+                -->
+                Facebook
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__column-links footer__link-item"> 
+                <img class="footer__social-icon" src="images/instagram_white.svg" alt="">
+                <!-- 
+                  Could be better: alt attr should contain descriptive content
+                -->
+                <!-- +
+                  Must be corrected: it should be margin-right, not margin-left
+                -->
+                Instagram
+              </a>
+            </li>
+          </ul>
+          <!-- +
+            Must be corrected:
+              1. it's the list of social links. ul tag should be used to group items. This list should have
+              the class footer__column-links. For li and a tags, please, create another classes(they
+              are not in the brief, you can make up them)
+
+              For more info:
+                https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+              
+              2. margin-bottom equaled to 16px should be added to this list, not to links
+          -->
+        </div>
+      </div>
+    </footer>
+   
+    </div>
+  </body>
+</html>
+
+<!-- 
+  Hi! It's much better, keep going!
+  1. Semantics is good
+  2. BEM is almost perfect
+  3. Absolute positioning is nice
+
+  These important issues should be fixed:
+  1. BEM issues should be fixed. Modifiers can't be used without modified elements, use this structure:
+    block block_modifier_value
+    block__element block__element_modifier_value
+  It means that we should use at least two classes when there is a modifier
+  2. All properties and classes from the brief should be added, some should be replaced or fixed
+  3. To group items ul tag should be used
+
+  Good luck!
+ -->
